@@ -1,0 +1,20 @@
+# Sistema Bancário Digital - Dependências
+# =====================================
+
+# Dependências principais
+# (Nenhuma dependência externa para execução básica)
+
+# Dependências de desenvolvimento e testes
+pytest>=7.0.0              # Framework de testes
+pytest-cov>=4.0.0          # Cobertura de testes
+pytest-mock>=3.10.0        # Mocking para testes
+
+# Dependências opcionais para desenvolvimento
+black>=23.0.0               # Formatação de código
+flake8>=5.0.0              # Linting
+mypy>=1.0.0                # Type checking
+isort>=5.12.0              # Organização de imports
+
+# Documentação (opcional)
+sphinx>=5.0.0              # Geração de documentação
+sphinx-rtd-theme>=1.2.0    # Tema para documentação
